@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Premium Buy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Sold Out </h1>
+  </header>
+
+  <button id="atrasBt"><a href="./index.html"> Anterior </a></button>
+
+  <script>
+    const atrasBt = document.getElementById('atrasBt')
+
+    atrasBt.addEventListener('click', function() {
+
+      console.log('Regresaste');
+
+      window.history.back();
+    });
+  </script>
+
+</body>
+
+</html>

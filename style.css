@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+        background-color:#FF880CFC;
+}
+h1{
+  color: yellow
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #FFFFFFFC
+}

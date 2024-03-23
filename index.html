@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PornHu</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welmecome PornHu</h1>
+  </header>
+
+  <button id="miBoton">PornHu Premium</button><br>
+  <button id="ventana">Descargar App</button>
+
+  <nav>
+    <ul>
+      <li><a href="./Img.html">Imagenes Hot</a></li>
+      <li><a href="./Información.html">Más Información</a></li>
+      <li><a href="./video.html">Videos</a></li>
+      <li><a href="./tuvideo.html">TuVideo</a></li>
+
+    </ul>
+  </nav>
+
+  <script>
+    const miBoton = document.getElementById('miBoton').addEventListener('click', function() {
+
+      var confirmar = confirm('¿Quieres Abrir El Enlace ?');
+      if (confirmar)
+        location.href = './new.html';
+
+    });
+  </script>
+
+  <script>
+    const ventana = document.getElementById('ventana').addEventListener('click', function() {
+
+      window.open('Descargar app.html', '_blank', 'width=400', 'height=300');
+    });
+  </script>
+
+  <footer>
+    Tus Videos Punto Com,
+    <br>Compañia De Dudosa Procedencia<br>
+    @2024
+  </footer>
+</body>
+
+</html>
